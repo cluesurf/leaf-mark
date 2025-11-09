@@ -8,7 +8,7 @@
 
 <h3 align='center'>@cluesurf/leaf-mark</h3>
 <p align='center'>
-  Esoteric Ancient Human LeafMark Font
+  LeafMark: Esoteric Ancient Human Font
 </p>
 
 <br/>
