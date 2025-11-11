@@ -26,7 +26,8 @@ vowels of [Tune](https://tune.surf/rule/tone) which we've constructed by
 mapping out possibilities for ancient experience and imagination and
 creation and understanding, as may have come from the original monkeys
 who began to propagate language in melodic tunes as they chipped rocks
-and moved with the team of each other and the universe.
+and moved with the team of each other and the flow of the universe as a
+whole.
 
 ## License
 
