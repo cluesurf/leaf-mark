@@ -19,7 +19,7 @@
   <img src='https://github.com/cluesurf/wick-mark/blob/make/view/glyphs-2025-11-10-2.png?raw=true' />
 </p>
 
-## Introduction
+## Notes
 
 **WickMark** is based on pronunciation of the elemental 22 consonants
 and 5 vowels of [Tune](https://tune.surf/rule/tone) which we've
