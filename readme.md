@@ -19,6 +19,13 @@
   <img src='https://github.com/cluesurf/wick-mark/blob/make/view/glyphs-2025-11-10-2.png?raw=true' />
 </p>
 
+## Notes
+
+This is based on the standardized and elemental 22 consonants and 5
+vowels of [Tune](https://tune.surf/rule/tone) which we've constructed
+mapping out possibilities for ancient experience and imagination and
+creation and understanding.
+
 ## License
 
 MIT
