@@ -24,7 +24,9 @@
 This is based on the standardized and elemental 22 consonants and 5
 vowels of [Tune](https://tune.surf/rule/tone) which we've constructed
 mapping out possibilities for ancient experience and imagination and
-creation and understanding.
+creation and understanding of the original monkeys who began to
+propagate language in melodic tunes as they chipped rocks and moved with
+the team of each other and the universe.
 
 ## License
 
