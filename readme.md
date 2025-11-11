@@ -36,7 +36,7 @@ haha 🤷_
 
 ## License
 
-MIT
+[OFL](./license.md)
 
 ## ClueSurf
 
