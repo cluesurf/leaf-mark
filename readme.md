@@ -29,6 +29,11 @@ who began to propagate language in melodic tunes as they chipped rocks
 and moved with the team of each other and the flow of the universe as a
 whole, if you really think about it.
 
+_It's just experimenting with how one might practically transform the
+sounds we started making pre-language, into something we could see with
+our own eyes. Playing with minimum potential stuff for way back when
+haha 🤷_
+
 ## License
 
 MIT
