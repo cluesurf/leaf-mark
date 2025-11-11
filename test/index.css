@@ -1,4 +1,12 @@
 @font-face {
+  font-family: 'CrowMark';
+  src: url('./CrowMark.otf?raw=true') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
   font-family: 'WickMarkLine';
   src: url('../base/WickMarkLine.otf') format('opentype');
   font-weight: normal;
@@ -45,9 +53,9 @@ body {
 .text-h1 {
   color: #71717a;
   /* zinc-500 */
-  font-size: 48px;
+  font-size: 56px;
   letter-spacing: 0.1rem;
-  margin-bottom: 32px;
+  margin-bottom: 8px;
   text-align: center;
 }
 
