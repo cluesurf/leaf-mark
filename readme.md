@@ -6,7 +6,7 @@
 <br/>
 <br/>
 
-<h3 align='center'>@cluesurf/leaf-mark</h3>
+<h3 align='center'>wick-mark</h3>
 <p align='center'>
   Esoteric Ancient Human Font
 </p>
@@ -14,6 +14,10 @@
 <br/>
 <br/>
 <br/>
+
+<p align="center">
+  <img src='https://github.com/cluesurf/wick-mark/blob/make/view/glyphs-2025-11-10-1.png?raw=true' />
+</p>
 
 ## License
 

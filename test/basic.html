@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>WickMark Test</title>
+    <link
+      rel="stylesheet"
+      href="index.css"
+    />
+  </head>
+  <body>
+    <div class="content">
+      <h1 class="text-h1">WickMark</h1>
+      <div id="wickmark-matrix" class="matrix"></div>
+      <script src="index.js"></script>
+      <script>
+        const lineMatrixElement = document.querySelector('#wickmark-matrix')
+        const lineText = []
+
+        function draw(list) {
+          const lineCharacterSet = [`<div class="list">`]
+
+          list.forEach(mark => {
+            const lineCharacter = []
+            lineCharacter.push(`<div class="list-item">`)
+            lineCharacter.push(`<div class="font-wickmark-leaf">`)
+            const leafLink = WICK_MARK_LINE_LEAF_LINK[mark] || mark
+            lineCharacter.push(`<img src="../base/mark/${leafLink}.svg" onload="this.parentElement.parentElement.classList.add('visible');" onerror="this.parentElement.parentElement.classList.add('error', 'visible');" />`)
+            lineCharacter.push(`</div>`)
+            lineCharacter.push(`<div class="font-wickmark-line">${mark}</div>`)
+            lineCharacter.push(`<div class="base-text">${mark}</div>`)
+            lineCharacter.push(`</div>`)
+            lineCharacterSet.push(lineCharacter.join(''))
+          })
+
+          lineCharacterSet.push(`</div>`)
+
+          lineText.push(lineCharacterSet.join(''))
+        }
+
+        draw(WICK_MARK_LINE_VOWELS)
+        draw(WICK_MARK_LINE_CONSONANTS)
+        draw(WICK_MARK_LINE_DIGIT)
+        draw(WICK_MARK_LINE_PERIOD)
+
+        lineMatrixElement.innerHTML = lineText.join('')
+      </script>
+  </body>
+</html>
+<!--
+(similar-characters)
+
+ε: Ɛ Ɜ ɛ ɜ3
+η: ƞ
+ι: ı
+ο: o
+ρ: p
+µμβγηρφψζξς
+-->
