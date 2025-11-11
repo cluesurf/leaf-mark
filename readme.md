@@ -21,8 +21,8 @@
 
 ## Notes
 
-This is based on the standardized and elemental 22 consonants and 5
-vowels of [Tune](https://tune.surf/rule/tone) which we've constructed by
+This is based on pronunciation of elemental 22 consonants and 5 vowels
+of [Tune](https://tune.surf/rule/tone) which we've constructed by
 mapping out possibilities for ancient experience and imagination and
 creation and understanding, as could have come from the original monkeys
 who began to propagate language in melodic tunes as they chipped rocks
