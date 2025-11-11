@@ -8,7 +8,7 @@
 
 <h3 align='center'>wick-mark</h3>
 <p align='center'>
-  Esoteric Ancient Human Font
+  An Esoteric Ancient Human Font
 </p>
 
 <br/>
