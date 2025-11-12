@@ -62,6 +62,12 @@ follows:
 
 ```
 
+```
+  i    e    a    o    u
+ -|   -|-  -|-  -|-   |-
+ -|   -|   -|-   |-   |-
+```
+
 ## Notes
 
 **WickMark** is based on pronunciation of the elemental 22 consonants
