@@ -19,6 +19,49 @@
   <img src='https://github.com/cluesurf/wick-mark/blob/make/view/glyphs-2025-11-10-2.png?raw=true' />
 </p>
 
+## To-Redo Some Glyphs
+
+Going to make into this (mimicking the flow/walkthrough waving
+back-n-forth through letters/sounds
+[here](https://tune.surf/rule/tone)). Base structural outline is as
+follows:
+
+- 2-height: vowels
+- 4-height: consonants
+- 5-height: digits
+
+```
+
+  # 1 (full)
+   h
+  -|-
+  -|-
+  -|-
+  -|-
+
+  # 2 (4 down on one side at least)
+   s    f         z    v         j    x         C    c
+  -|-  -|-       -|-  -|-       -|-  -|-        |-  -|
+  -|-  -|-       -|-  -|-        |-  -|        -|-  -|-
+  -|-  -|-        |-  -|        -|-  -|-       -|-  -|-
+   |-  -|        -|-  -|-       -|-  -|-       -|-  -|-
+
+  # 3 (3 on one side)
+   m    n    q           b    d    g          p    t    k
+  -|-  -|-  -|-         -|-  -|-  -|-        -|-  -|-  -|-
+   |-  -|-  -|           |    |    |          |-  -|-  -|
+   |-  -|-  -|           |-  -|-  -|          |    |    |
+   |    |    |           |-  -|-  -|          |-  -|-  -|
+
+  # 4 (middle two missing)
+   w    y    l    r
+  -|-  -|-  -|    |-
+   |    |    |    |
+   |    |    |    |
+  -|    |-  -|-  -|-
+
+```
+
 ## Notes
 
 **WickMark** is based on pronunciation of the elemental 22 consonants
