@@ -15,62 +15,7 @@
 <br/>
 <br/>
 
-<p align="center">
-  <img src='https://github.com/cluesurf/wick-mark/blob/make/view/glyphs-2025-11-13-1.png?raw=true' />
-</p>
-
-## To-Redo Some Glyphs
-
-Going to make into this (mimicking the flow/walkthrough waving
-back-n-forth through letters/sounds
-[here](https://tune.surf/rule/tone)). Base structural outline is as
-follows:
-
-- 2-height: vowels
-- 4-height: consonants
-- 5-height: digits
-
-```
-
-  # 1 (full)
-   h
-  -|-
-  -|-
-  -|-
-  -|-
-
-  # 2 (4 down on one side at least)
-   s    f         z    v         j    x         C    c
-  -|-  -|-       -|-  -|-       -|-  -|-        |-  -|
-  -|-  -|-       -|-  -|-        |-  -|        -|-  -|-
-  -|-  -|-        |-  -|        -|-  -|-       -|-  -|-
-   |-  -|        -|-  -|-       -|-  -|-       -|-  -|-
-
-  # 3 (3 on one side)
-   m    n    q           b    d    g          p    t    k
-  -|-  -|-  -|-         -|-  -|-  -|-        -|-  -|-  -|-
-   |-  -|-  -|           |    |    |          |-  -|-  -|
-   |-  -|-  -|           |-  -|-  -|          |    |    |
-   |    |    |           |-  -|-  -|          |-  -|-  -|
-
-  # 4 (middle two missing)
-   w    y    l    r
-  -|-  -|-  -|    |-
-   |    |    |    |
-   |    |    |    |
-  -|    |-  -|-  -|-
-
-```
-
-```
-
-   i    e    a    o    u
-  -|-  -|   -|-   |-  -|-
-  -|   -|-  -|-  -|-   |-
-
-```
-
-## Notes
+## Introduction
 
 **WickMark** is based on pronunciation of the elemental 22 consonants
 and 5 vowels of [Tune](https://tune.surf/rule/tone) which we've
@@ -84,6 +29,10 @@ _It's just experimenting with how one might practically transform the
 sounds we started making pre-language, into something we could see with
 our own eyes. Playing with minimum potential stuff for way back when
 haha 🤷_
+
+<p align="center">
+  <img src='https://github.com/cluesurf/wick-mark/blob/make/view/glyphs-2025-11-13-1.png?raw=true' />
+</p>
 
 ## License
 
