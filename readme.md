@@ -31,7 +31,7 @@ our own eyes. Playing with minimum potential stuff for way back when
 haha 🤷_
 
 <p align="center">
-  <img src='https://github.com/cluesurf/wick-mark/blob/make/view/glyphs-2025-11-13-1.png?raw=true' />
+  <img src='https://github.com/cluesurf/wick-mark/blob/make/view/glyphs-2025-11-13-2.png?raw=true' />
 </p>
 
 ## License
