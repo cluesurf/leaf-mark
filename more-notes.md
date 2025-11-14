@@ -11,8 +11,6 @@
 - Remove `10` as it's own thing.
 - Period: should be horizontal leaf, aligned bottom.
 - Vowels: leaf's should align bottom.
-- Colors: change purple (tailwind purple 600), change green (tailwind
-  emerald 500 maybe? some tailwind "emerald" tho, not "tailwind green")
 - Make sure all "leaf" glyphs are same width / leaf size in general.
 - Note: vowels are only 2-leaves high, whereas consonants/numbers are
   5-leaves high.

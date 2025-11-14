@@ -21,17 +21,19 @@
         const lineMatrixElement = document.querySelector('#wickmark-matrix')
         const lineText = []
 
-        function draw(list) {
+        function draw(list, size) {
           const lineCharacterSet = [`<div class="list">`]
 
           list.forEach(mark => {
+            const num = parseInt(mark, 10)
+            const rightClass = !Number.isNaN(num) && num >= 1 && num <= 5 ? 'right' : ''
             const lineCharacter = []
             lineCharacter.push(`<div class="list-item">`)
-            lineCharacter.push(`<div class="font-wickmark-leaf">`)
+            lineCharacter.push(`<div class="font-wickmark-leaf ${rightClass}">`)
             const leafLink = WICK_MARK_LINE_LEAF_LINK[mark] || mark
-            lineCharacter.push(`<img src="../base/mark/${leafLink}.svg" onload="this.parentElement.parentElement.classList.add('visible');" onerror="this.parentElement.parentElement.classList.add('error', 'visible');" />`)
+            lineCharacter.push(`<img class="${size}" src="../base/mark/${leafLink}.svg" onload="this.parentElement.parentElement.classList.add('visible');" onerror="this.parentElement.parentElement.classList.add('error', 'visible');" />`)
             lineCharacter.push(`</div>`)
-            lineCharacter.push(`<div class="font-wickmark-line">${mark}</div>`)
+            // lineCharacter.push(`<div class="font-wickmark-line">${mark}</div>`)
             lineCharacter.push(`<div class="base-text">${mark}</div>`)
             lineCharacter.push(`</div>`)
             lineCharacterSet.push(lineCharacter.join(''))
@@ -42,9 +44,12 @@
           lineText.push(lineCharacterSet.join(''))
         }
 
-        draw(WICK_MARK_LINE_VOWELS)
-        draw(WICK_MARK_LINE_CONSONANTS)
-        draw(WICK_MARK_LINE_DIGIT)
+        draw(WICK_MARK_LINE_VOWELS, 'four')
+        draw(WICK_MARK_LINE_CONSONANTS_3, 'four')
+        draw(WICK_MARK_LINE_CONSONANTS_1, 'four')
+        draw(WICK_MARK_LINE_CONSONANTS_2, 'four')
+        draw(WICK_MARK_LINE_CONSONANTS_4, 'four')
+        draw(WICK_MARK_LINE_DIGIT, 'four')
         // draw(WICK_MARK_LINE_PERIOD)
 
         lineMatrixElement.innerHTML = lineText.join('')

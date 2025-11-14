@@ -16,7 +16,7 @@
 <br/>
 
 <p align="center">
-  <img src='https://github.com/cluesurf/wick-mark/blob/make/view/glyphs-2025-11-10-2.png?raw=true' />
+  <img src='https://github.com/cluesurf/wick-mark/blob/make/view/glyphs-2025-11-13-1.png?raw=true' />
 </p>
 
 ## To-Redo Some Glyphs

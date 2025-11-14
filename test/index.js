@@ -45,6 +45,14 @@ const WICK_MARK_LINE_VOWELS = 'i e a o u'.split(/[\s]+/)
 const WICK_MARK_LINE_CONSONANTS =
   'm n q g d b p t k h s f v z j x c C w l r y'.split(/[\s]+/)
 
+const WICK_MARK_LINE_CONSONANTS_3 = 'm n q g d b p t k'.split(/[\s]+/)
+
+const WICK_MARK_LINE_CONSONANTS_1 = 'h'.split(/[\s]+/)
+
+const WICK_MARK_LINE_CONSONANTS_2 = 's f v z j x c C'.split(/[\s]+/)
+
+const WICK_MARK_LINE_CONSONANTS_4 = 'w l r y'.split(/[\s]+/)
+
 const WICK_MARK_LINE_DIGIT = '0 1 2 3 4 5 6 7 8 9'.split(/[\s]+/)
 
 const WICK_MARK_LINE_PERIOD = '.'.split(/[\s]+/)
