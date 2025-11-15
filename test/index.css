@@ -36,8 +36,8 @@ body {
   font-family: monospace;
 }
 
-.font-wickmark-line,
-.font-wickmark-line * {
+.font-leafmark-line,
+.font-leafmark-line * {
   font-family: WickMarkLine;
 }
 
@@ -93,19 +93,19 @@ body {
   visibility: visible;
 }
 
-.list-item .font-wickmark-leaf {
+.list-item .font-leafmark-leaf {
   display: flex;
   justify-content: center;
   height: 72px;
   width: 100%;
 }
 
-.list-item .font-wickmark-leaf.right {
+.list-item .font-leafmark-leaf.right {
   justify-content: flex-end;
   transform: translateX(-5px);
 }
 
-.list-item .font-wickmark-leaf img {
+.list-item .font-leafmark-leaf img {
   height: 72px;
   width: auto;
 }
@@ -114,7 +114,7 @@ body {
   background-color: #f4f4f5;
 }
 
-.list-item .font-wickmark-line {
+.list-item .font-leafmark-line {
   font-size: 48px;
 }
 

@@ -6,7 +6,7 @@
 <br/>
 <br/>
 
-<h3 align='center'>wick-mark</h3>
+<h3 align='center'>leaf-mark</h3>
 <p align='center'>
   An Esoteric Ancient Human Font
 </p>
@@ -17,7 +17,7 @@
 
 ## Introduction
 
-**WickMark** is based on pronunciation of the elemental 22 consonants
+**LeafMark** is based on pronunciation of the elemental 22 consonants
 and 5 vowels of [Tune](https://tune.surf/rule/tone) which we've
 constructed by mapping out possibilities for ancient experience and
 imagination and creation and understanding, as could have come from the
@@ -31,7 +31,7 @@ our own eyes. Playing with minimum potential stuff for way back when
 haha 🤷_
 
 <p align="center">
-  <img src='https://github.com/cluesurf/wick-mark/blob/make/view/glyphs-2025-11-13-2.png?raw=true' />
+  <img src='https://github.com/cluesurf/leaf-mark/blob/make/view/glyphs-2025-11-14-1.png?raw=true' />
 </p>
 
 ## License

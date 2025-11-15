@@ -6,7 +6,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0"
     />
-    <title>WickMark Test</title>
+    <title>LeafMark Test</title>
     <link
       rel="stylesheet"
       href="index.css"
@@ -14,11 +14,11 @@
   </head>
   <body>
     <div class="content">
-      <h1 class="text-h1">WickMark</h1>
-      <div id="wickmark-matrix" class="matrix"></div>
+      <h1 class="text-h1">LeafMark</h1>
+      <div id="leafmark-matrix" class="matrix"></div>
       <script src="index.js"></script>
       <script>
-        const lineMatrixElement = document.querySelector('#wickmark-matrix')
+        const lineMatrixElement = document.querySelector('#leafmark-matrix')
         const lineText = []
 
         function draw(list, size) {
@@ -29,11 +29,11 @@
             const rightClass = !Number.isNaN(num) && num >= 1 && num <= 5 ? 'right' : ''
             const lineCharacter = []
             lineCharacter.push(`<div class="list-item">`)
-            lineCharacter.push(`<div class="font-wickmark-leaf ${rightClass}">`)
-            const leafLink = WICK_MARK_LINE_LEAF_LINK[mark] || mark
+            lineCharacter.push(`<div class="font-leafmark-leaf ${rightClass}">`)
+            const leafLink = LEAF_MARK_LINE_LEAF_LINK[mark] || mark
             lineCharacter.push(`<img class="${size}" src="../base/mark/${leafLink}.svg" onload="this.parentElement.parentElement.classList.add('visible');" onerror="this.parentElement.parentElement.classList.add('error', 'visible');" />`)
             lineCharacter.push(`</div>`)
-            // lineCharacter.push(`<div class="font-wickmark-line">${mark}</div>`)
+            // lineCharacter.push(`<div class="font-leafmark-line">${mark}</div>`)
             lineCharacter.push(`<div class="base-text">${mark}</div>`)
             lineCharacter.push(`</div>`)
             lineCharacterSet.push(lineCharacter.join(''))
@@ -44,13 +44,14 @@
           lineText.push(lineCharacterSet.join(''))
         }
 
-        draw(WICK_MARK_LINE_VOWELS, 'four')
-        draw(WICK_MARK_LINE_CONSONANTS_3, 'four')
-        draw(WICK_MARK_LINE_CONSONANTS_1, 'four')
-        draw(WICK_MARK_LINE_CONSONANTS_2, 'four')
-        draw(WICK_MARK_LINE_CONSONANTS_4, 'four')
-        draw(WICK_MARK_LINE_DIGIT, 'four')
-        // draw(WICK_MARK_LINE_PERIOD)
+        draw(LEAF_MARK_LINE_VOWELS, 'four')
+        draw(LEAF_MARK_LINE_CONSONANTS_3, 'four')
+        draw(LEAF_MARK_LINE_CONSONANTS_1, 'four')
+        draw(LEAF_MARK_LINE_CONSONANTS_2, 'four')
+        draw(LEAF_MARK_LINE_CONSONANTS_4, 'four')
+        draw(LEAF_MARK_LINE_PERIOD, 'four')
+        draw(LEAF_MARK_LINE_DIGIT, 'four')
+        // draw(LEAF_MARK_LINE_PERIOD)
 
         lineMatrixElement.innerHTML = lineText.join('')
       </script>
