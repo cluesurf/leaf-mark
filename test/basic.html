@@ -16,6 +16,17 @@
     <div class="content">
       <h1 class="text-h1">LeafMark</h1>
       <div id="leafmark-matrix" class="matrix"></div>
+      <h1 class="text-h1">Example</h1>
+      <p class="font-leafmark-line font-size-64 center">
+9a3b6. suq stretxi reC hagi slur yas xica.
+slur yas lega vuti tepe kwat pot tavuti bito.
+muq. s1l2u5r homa fili sag kozino lig yama.
+nan wani budi riko liti yas gul xica drupati
+kar foru jas nif txam mor nuca.
+muq. dan mikila hazi nif bat yuve mastim mila mobu vala.
+vuti kala palu zusi warka. txipuri suq liga.
+konu kola wel vuti wome jas weti konu visi.
+      </p>
       <script src="index.js"></script>
       <script>
         const lineMatrixElement = document.querySelector('#leafmark-matrix')
@@ -26,14 +37,15 @@
 
           list.forEach(mark => {
             const num = parseInt(mark, 10)
+            const leafLink = LEAF_MARK_LINE_LEAF_LINK[mark] || mark
             const rightClass = !Number.isNaN(num) && num >= 1 && num <= 5 ? 'right' : ''
             const lineCharacter = []
-            lineCharacter.push(`<div class="list-item">`)
+            lineCharacter.push(`<div class="list-item item-${leafLink}">`)
             lineCharacter.push(`<div class="font-leafmark-leaf ${rightClass}">`)
-            const leafLink = LEAF_MARK_LINE_LEAF_LINK[mark] || mark
+            // lineCharacter.push(`<div class="font-leafmark">${mark}</div>`)
             lineCharacter.push(`<img class="${size}" src="../base/mark/${leafLink}.svg" onload="this.parentElement.parentElement.classList.add('visible');" onerror="this.parentElement.parentElement.classList.add('error', 'visible');" />`)
             lineCharacter.push(`</div>`)
-            // lineCharacter.push(`<div class="font-leafmark-line">${mark}</div>`)
+            lineCharacter.push(`<div class="font-leafmark-line glyph-${leafLink}">${mark}</div>`)
             lineCharacter.push(`<div class="base-text">${mark}</div>`)
             lineCharacter.push(`</div>`)
             lineCharacterSet.push(lineCharacter.join(''))

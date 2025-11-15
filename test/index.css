@@ -7,8 +7,16 @@
 }
 
 @font-face {
-  font-family: 'WickMarkLine';
-  src: url('../base/WickMarkLine.otf') format('opentype');
+  font-family: 'LeafMark';
+  src: url('../base/LeafMark.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'LeafMarkLine';
+  src: url('../base/LineMark-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -17,13 +25,17 @@
 body {
   word-break: break-all;
   font-family: monospace;
-  line-height: 1.5;
+  line-height: 1;
   font-size: 16px;
   word-break: normal;
   display: block;
   max-width: 820px;
   margin: 0 auto;
   padding-bottom: 128px;
+}
+
+p {
+  margin-top: 48px;
 }
 
 .font-sans-serif,
@@ -36,13 +48,26 @@ body {
   font-family: monospace;
 }
 
+.font-leafmark,
+.font-leafmark * {
+  font-family: LeafMark;
+}
+
 .font-leafmark-line,
 .font-leafmark-line * {
-  font-family: WickMarkLine;
+  font-family: LeafMarkLine;
 }
 
 .font-size-large {
   font-size: 192px;
+}
+
+.font-size-medium {
+  font-size: 96px;
+}
+
+.font-size-64 {
+  font-size: 64px;
 }
 
 .font-size-small {
@@ -114,8 +139,12 @@ body {
   background-color: #f4f4f5;
 }
 
+.list-item .font-leafmark {
+  font-size: 72px;
+}
+
 .list-item .font-leafmark-line {
-  font-size: 48px;
+  font-size: 72px;
 }
 
 .list-item .base-text {
@@ -131,4 +160,59 @@ body {
 
 .list-item.error img {
   display: none;
+}
+
+.glyph-period {
+  line-height: 0;
+  margin-top: -32px;
+  margin-bottom: 16px;
+}
+
+.item-period {
+  margin-bottom: 16px;
+}
+
+.glyph-i,
+.glyph-e,
+.glyph-a,
+.glyph-o,
+.glyph-u {
+  line-height: 0.5;
+}
+
+.glyph-i,
+.glyph-e,
+.glyph-a,
+.glyph-o,
+.glyph-u {
+  line-height: 0.25;
+}
+
+.glyph-m,
+.glyph-n,
+.glyph-q,
+.glyph-g,
+.glyph-d,
+.glyph-b,
+.glyph-p,
+.glyph-t,
+.glyph-k,
+.glyph-h,
+.glyph-s,
+.glyph-f,
+.glyph-v,
+.glyph-z,
+.glyph-j,
+.glyph-C,
+.glyph-c,
+.glyph-x,
+.glyph-w,
+.glyph-l,
+.glyph-r,
+.glyph-y {
+  line-height: 0.8;
+}
+
+.center {
+  text-align: center;
 }

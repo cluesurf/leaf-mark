@@ -58,10 +58,6 @@ const LEAF_MARK_LINE_DIGIT = '0 1 2 3 4 5 6 7 8 9'.split(/[\s]+/)
 const LEAF_MARK_LINE_PERIOD = '.'.split(/[\s]+/)
 
 const LEAF_MARK_LINE_LEAF_LINK = {
-  '<': 'angle-bracket-right',
-  '>': 'angle-bracket-left',
-  ',': 'comma',
-  '-': 'dash',
-  '.': 'dash',
+  '.': 'period',
   C: 'cc',
 }
