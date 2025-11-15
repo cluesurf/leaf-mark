@@ -16,7 +16,7 @@
 
 @font-face {
   font-family: 'LeafMarkLine';
-  src: url('../base/LineMark-Regular.ttf') format('truetype');
+  src: url('../base/LeafMarkLine.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -121,7 +121,6 @@ p {
 .list-item .font-leafmark-leaf {
   display: flex;
   justify-content: center;
-  height: 72px;
   width: 100%;
 }
 
@@ -144,13 +143,15 @@ p {
 }
 
 .list-item .font-leafmark-line {
-  font-size: 72px;
+  font-size: 56px;
+  padding-top: 12px;
+  margin-bottom: -8px;
 }
 
 .list-item .base-text {
   text-align: center;
   font-size: 16px;
-  color: #18181b;
+  color: #71717a;
   /* zinc-900 */
 }
 
@@ -177,15 +178,9 @@ p {
 .glyph-a,
 .glyph-o,
 .glyph-u {
-  line-height: 0.5;
-}
-
-.glyph-i,
-.glyph-e,
-.glyph-a,
-.glyph-o,
-.glyph-u {
-  line-height: 0.25;
+  /* line-height: 0.25; */
+  margin-top: -24px;
+  margin-bottom: -8px;
 }
 
 .glyph-m,
@@ -210,7 +205,9 @@ p {
 .glyph-l,
 .glyph-r,
 .glyph-y {
-  line-height: 0.8;
+  /* line-height: 0.8; */
+  margin-top: -8px;
+  margin-bottom: -8px;
 }
 
 .center {
