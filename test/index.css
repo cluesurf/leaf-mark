@@ -169,6 +169,10 @@ p {
   margin-bottom: 16px;
 }
 
+.item-period .base-text {
+  margin-top: 24px;
+}
+
 .item-period {
   margin-bottom: 16px;
 }
