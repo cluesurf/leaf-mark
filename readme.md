@@ -31,7 +31,7 @@ our own eyes. Playing with minimum potential stuff for way back when
 haha 🤷_
 
 <p align="center">
-  <img src='https://github.com/cluesurf/leaf-mark/blob/make/view/glyphs-2025-11-15-3.png?raw=true' />
+  <img src='https://github.com/cluesurf/leaf-mark/blob/make/view/glyphs-2025-11-15-4.png?raw=true' />
 </p>
 
 ## License
