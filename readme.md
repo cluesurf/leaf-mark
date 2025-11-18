@@ -30,6 +30,15 @@ sounds we started making pre-language, into something we could see with
 our own eyes. Playing with minimum potential stuff for way back when
 haha 🤷_
 
+Imagine pre-language when we just barely figured out sounds. Sounds
+could be combined into 2s, 3s, 4s even, probably 1-syllable at most to
+begin. And they would be like magic.
+
+This is representing that hypothetical experience, mesmerized by sounds,
+sequencing them into short syllables. And the leaves on sticks would
+have been easy to tear off a plant and create real quick without much
+preparation.
+
 <p align="center">
   <img src='https://github.com/cluesurf/leaf-mark/blob/make/view/glyphs-2025-11-15-4.png?raw=true' />
 </p>
